@@ -17,7 +17,7 @@ app.get("/isworking", (req, res) => {
 });
 
 const corsOptions = {
-  origin: ["", "http://localhost:3000"], // URL of your React frontend
+  origin: ["https://spark-project-frontend.vercel.app", "http://localhost:3000"], // URL of your React frontend
   methods: ["GET", "POST", "PUT", "DELETE"], // HTTP methods allowed
   allowedHeaders: ["Content-Type", "Authorization"],
 };
